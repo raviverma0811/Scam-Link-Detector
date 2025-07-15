@@ -23,8 +23,6 @@ This extension scans web pages for suspicious or scam links and lists them for u
 - `popup.js`: Frontend logic
 - `background.js`: (Optional for future API scanning)
 - `style.css`: Custom UI styling
-- 🎥 [Click here to view the demo video](demo.mp4)
-- https://github.com/raviverma0811/scam-link-detector/blob/main/demo.mp4
 
 
 ## 🙋‍♂️ Author
