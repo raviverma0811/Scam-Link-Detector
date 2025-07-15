@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  width: 280px;
+}
+
+.container {
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #b00020;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+button#scan {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #d32f2f, #9a0007);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+button#scan:hover {
+  background: linear-gradient(135deg, #b71c1c, #7f0000);
+  transform: scale(1.03);
+}
+
+button#scan:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: #9a0007;
+}
+
+#result {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+ul#linkList {
+  list-style-type: none;
+  padding-left: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+ul#linkList li {
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 4px;
+  background-color: #fff3f3;
+  border: 1px solid #f5c2c2;
+  border-radius: 4px;
+  word-break: break-all;
+}
+.spinner {
+  border: 2px solid #fff;
+  border-top: 2px solid #333;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

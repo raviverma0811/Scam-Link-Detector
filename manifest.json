@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ScamLink Detector",
+  "version": "1.0",
+  "description": "Detects suspicious or scam links on webpages",
+
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
