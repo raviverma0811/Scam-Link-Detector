@@ -1,17 +1,34 @@
-# Scam Link Detector (Chrome Extension) 🔍
+# 🔍 Scam Link Detector – Chrome Extension
 
-This Chrome Extension detects and lists all hyperlinks on a webpage and can be extended to scan for scam or malicious links using VirusTotal or other services.
+This extension scans web pages for suspicious or scam links and lists them for users. It's intended to enhance user safety while browsing.
 
-## Features
-- Lists all links on a page
-- Stylish animated scan button
-- Built with HTML, CSS, JavaScript, and Chrome Extension APIs
+## 🚀 Features
 
-## Installation
-1. Clone this repo
-2. Go to `chrome://extensions`
-3. Enable Developer Mode
-4. Click "Load unpacked" and select the project folder
+- Detects and displays all hyperlinks on the page
+- Option to scan using external services like VirusTotal
+- Beautiful animated scan button UI
 
-## Author
+## 🛠️ Installation
+
+1. Clone/download this repository
+2. Go to `chrome://extensions/`
+3. Enable **Developer Mode**
+4. Click **Load unpacked**
+5. Select this folder
+
+## 📁 Files
+
+- `manifest.json`: Chrome extension config
+- `popup.html`: UI layout
+- `popup.js`: Frontend logic
+- `background.js`: (Optional for future API scanning)
+- `style.css`: Custom UI styling
+
+## 🙋‍♂️ Author
+
 Ravi Verma
+
+---
+
+Feel free to fork/star and contribute!
+
